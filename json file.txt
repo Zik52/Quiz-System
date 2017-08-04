@@ -1,0 +1,43 @@
+Quiz list
+[
+{
+	"id": "quiz02",
+	"title": "Exam Grade",
+	"questionsPerPage": [2,4],
+	"score": 20,
+	"questions": [
+		{"id": 1, "text": "Sid", "type": "textbox", "validate": "/[0-9]+/"},
+  		{"id": 2, "text": "Name", "type": "textbox", "help": "Your full name"},
+  		{"id": 3, "text": "What`s the correct past form of visit?", "type": "textbox", "answer": "Visited", "weighting": 5},
+  		{"id": 4, "text": "What is the opposite of done?", "type": "textbox", "answer": ["did", "undone"], "weighting": 5},
+  		{"id": 5, "text": "Who is the daughter of your sister?", "type": "choice", "options": ["sister", "Aunty", "Cousin"], "answer": "Melbourne", "weighting": 5}
+
+	]
+  }
+]
+
+
+
+.cs
+public class Question
+        {
+            public int id { get; set; }
+            public string text { get; set; }
+            public string type { get; set; }
+            public string help { get; set; }
+            public List<string> options { get; set; }
+            public string validate { get; set; }
+            public object answer { get; set; }
+            public int? weighting { get; set; }
+        }
+
+        public class RootObject
+        {
+            public string id { get; set; }
+            public string title { get; set; }
+            public List<Question> questions { get; set; }
+            public List<int?> questionsPerPage { get; set; }
+            public int? score { get; set; }
+        }
+    }
+}
