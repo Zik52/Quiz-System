@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{C5435410-873B-487B-A520-2A43A18885F6}|Default">
+  <MonoDevelop.Ide.ItemProperties.zee AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="zee/DataAccess/LoginEntity.cs">
+    <Files>
+      <File FileName="zee/MenuActivity.cs" Line="33" Column="13" />
+      <File FileName="zee/MainActivity.cs" Line="39" Column="10" />
+      <File FileName="zee/SignupActivity.cs" Line="1" Column="1" />
+      <File FileName="zee/DataAccess/LoginEntity.cs" Line="13" Column="1" />
+      <File FileName="zee/Splashscreen.cs" Line="1" Column="1" />
+      <File FileName="zee/DataAccess/ISQLite.cs" Line="1" Column="1" />
+      <File FileName="zee/DataAccess/SQLiteService.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
